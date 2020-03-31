@@ -1,36 +1,42 @@
 import React from 'react';
-// import logo from './logo.svg';
-import './App.css';
+import Home from './components/Home';
+// import './App.css';
+import {
+  BrowserRouter as Router,
+  // Switch,
+  Route,
+  // Link
+} from "react-router-dom";
 
 function App() {
   return (
-    <div>
-    <p>Test paragraph</p>
-    </div>
+   <>  
+     <Router>
+     <switch>
+     <Route exact path='/' component={Home} />
+     </switch>
+     </Router>
+   </>
   );
 }
 
 export default App;
 
 
-// 
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
-//         <p>
-//           Edit <code>src/App.js</code> and save to reload.
-//         </p>
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn React
-//         </a>
-//       </header>
-//     </div>
-//   );
-// }
+// Routing wedle schematu
+// ------------------------------------------
+// Home (/)
+// Home – Organizations (/)
+// Home – Local (/)
+// Home – Logged In (/)
+// Form - Step 1 (/oddaj-rzeczy)
+// Form - Step 2 (/oddaj-rzeczy)
+// Form - Step 2 - Opened Select (/oddaj-rzeczy)
+// Form - Step 3 (/oddaj-rzeczy)
+// Form - Step 3 - Opened Select (/oddaj-rzeczy)
+// Form - Step 4 (/oddaj-rzeczy)
+// Form - Summary (/oddaj-rzeczy)
+// Form - Thank You (/oddaj-rzeczy)
+// Login (/logowanie)
+// Register (/rejestracja)
+// Logoutn (/wylogowano)
