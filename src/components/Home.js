@@ -3,7 +3,7 @@ import HomeHeader from './HomeHeader';
 import HomeMain from './HomeMain';
 import HomeInfo from './HomeInfo';
 import HomeSteps from './HomeSteps';
-import HomeAbout from './HomeAbout;'
+// import HomeAbout from './HomeAbout;'
 
 const Home = () => {
     return (
@@ -12,7 +12,7 @@ const Home = () => {
             <HomeMain />
             <HomeInfo />
             <HomeSteps />
-            <HomeAbout />
+            {/* <HomeAbout /> */}
 
         </div>
     );
