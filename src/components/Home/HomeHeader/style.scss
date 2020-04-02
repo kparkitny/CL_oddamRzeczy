@@ -1,0 +1,61 @@
+@import "../../../scss/main.scss";
+
+ul {
+  display: flex;
+}
+
+ul>li {
+    padding-bottom: 1.5rem;
+    padding: 1rem 1.5rem;
+    // text-align: center;
+}
+
+.homeHeaderWrapper {
+  height: 70vh;
+  display: flex;
+  justify-content: flex-end;
+  background-image: url(../../../assets/Home-Hero-Image.jpg);
+  background-position: -480px;
+  background-repeat: no-repeat;
+}
+
+.homeHeaderWrapper .topMenuPanel {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.topMenuPanelWord {
+    font-size: 2.5rem;
+}
+
+.homeHeaderWrapper h1:nth-of-type(1) {
+  padding-top: 13rem;
+}
+
+.homeHeaderWrapper h1:nth-of-type(2) {
+  padding: 1rem 0 2rem 0;
+}
+
+.decorationImgStyle {
+  padding-bottom: 5rem;
+}
+
+.btnWrapperStyle {
+  display: flex;
+  width: 70%;
+  justify-content: space-around;
+}
+
+.btnStyle {
+  background-color: transparent;
+  border: 1px solid $seventhColor;
+  opacity: 1;
+  padding: 2rem;
+  width: 18rem;
+  font-size: 2.2rem;
+  line-height: 2.8rem;
+  text-transform: uppercase;
+  cursor: pointer;
+}

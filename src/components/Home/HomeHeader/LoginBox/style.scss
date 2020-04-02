@@ -1,0 +1,21 @@
+@import "../../../../scss/main.scss";
+
+nav {
+  display: flex;
+  align-self: flex-end;
+}
+
+.loginBoxStyle {
+  padding-top: 0.3rem;
+  font-size: .8rem;
+  line-height: 1rem;
+  cursor: pointer;
+}
+
+.loginBoxStyle>li {
+    border: .01rem solid transparent;
+}
+
+.loginBoxStyle>li:hover {
+  border: .01rem solid $secondaryColor;
+}

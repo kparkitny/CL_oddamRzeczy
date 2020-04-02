@@ -1,0 +1,20 @@
+@import "../../../../scss/main.scss";
+
+nav {
+  display: flex;
+  align-self: flex-end;
+}
+
+.navBoxStyle {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  cursor: pointer;
+}
+
+.navBoxStyle>li {
+    border: .01rem solid transparent;
+}
+
+.navBoxStyle>li:hover {
+  border: .01rem solid $thirdColor;
+}
