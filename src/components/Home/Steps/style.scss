@@ -1,0 +1,80 @@
+@import "../../../scss/main.scss";
+
+.fourStepsWrapper {
+    // height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+.fourStepsTop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fourStepsTopTitle {
+    font-size: 2.5rem;
+    padding-top: 3rem;
+}
+
+.decorationImgSteps {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.fourStepsBottom {
+    width: 100%;
+    height: 18rem;
+    background: $primaryColor;
+    display: flex;
+    // align-items: center;
+    justify-content: space-evenly;
+}
+
+.fourStepsBottomColumn {
+    width: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourStepsBottomColumnBrake {
+    width: 3rem;
+    margin-top: .7rem;
+    margin-bottom: .7rem;
+}
+
+.fourStepsImage {
+    padding-bottom: 1rem;
+}
+
+.fourStepsBottomColumnTitle {
+    font-size: 1.1rem;
+}
+
+.stepsBtnSection {
+    height: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stepsBtnWrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+.stepsBtnStyle {
+    background-color: transparent;
+    border: 1px solid $seventhColor;
+    opacity: 1;
+    padding: 2rem;
+    width: 18rem;
+    font-size: 2.2rem;
+    line-height: 2.8rem;
+    text-transform: uppercase;
+    cursor: pointer;
+  }

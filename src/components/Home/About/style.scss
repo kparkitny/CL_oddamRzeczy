@@ -1,0 +1,45 @@
+@import "../../../scss/main.scss";
+
+.aboutUsWrapper {
+    background-color: $primaryColor;
+    display: flex;
+    align-items: center;
+}
+
+.aboutUsLeft {
+    width: 50%;
+    height: 100%;
+    display: flex;   
+    flex-direction: column;
+    // justify-content: space-around;
+    align-items: center;
+    color: $seventhColor;
+}
+
+.aboutUsLeftTitle {
+    font-size: 2.5rem;
+    line-height: 3 rem;  
+}
+
+.aboutUsLeftInfo {
+    font-size: 2rem;
+    line-height: 3rem;
+    padding: 0 4rem;
+}
+
+.decorationImgAbout {
+    padding: 2rem 0;
+}
+
+.signatureAbout {
+    padding-top: 2rem;
+}
+
+.aboutUsRight {
+    width: 50%;
+}
+
+.peopleAbout {
+    height: 60%;
+    width: 100%;
+}
