@@ -1,7 +1,7 @@
 @import "../../../scss/main.scss";
 
 .helpToWrapper {
-    // width: 100%;
+    width: 100%;
     height: 50rem;
     display: flex;
     flex-direction: column;
@@ -45,6 +45,29 @@
     width: 30%;
     font-size: 1.3rem;
     line-height: 1.8rem;
-
+    padding-bottom: 2rem;
 }
 
+.helpToWrapperListName {
+    font-size: 1.6rem;
+}
+
+.helpToWrapperList {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+li.paginationContainerSide {
+    // position: absolute; ??? 
+}
+
+li.paginationContainerSide:hover {
+    border: 1px solid $eighthColor;
+    cursor: pointer;
+    border-radius: 5%;
+}
+
+li.paginationContainerSide:active {
+    color:yellow;
+}

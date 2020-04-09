@@ -8,7 +8,7 @@ import columnImg4 from '../../../assets/Icon-4.svg';
 
 const Steps = () => {
     return (
-        <section className="fourStepsWrapper">
+        <section className="fourStepsWrapper" id="stepsSection">
             <div className="fourStepsTop">
                 <h2 className="fourStepsTopTitle">Wystarczą 4 proste kroki</h2>
                 <img src={decorationImgSteps} alt="dekoracja" className="decorationImgSteps"/>
