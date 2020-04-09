@@ -1,0 +1,106 @@
+{
+    "database": [
+      {
+        "type": "Fundacja",
+        "name": "Fundacja 'Dbam o zdrowie'",
+        "description": "Pomoc osobom znajdującym się w trudnej sytuacji życiowej.",
+        "what": "ubrania, jedzenie, sprzęt AGD, meble, zabawki"
+      },
+      {
+        "type": "Fundacja",
+        "name": "Fundacja 'Dla dzieci'",
+        "description": "Pomóc dzieciom z ubogich rodzin.",
+        "what": "ubrania, meble, zabawki"
+      },
+      {
+        "type": "Fundacja",
+        "name": "Fundacja 'Bez domu'",
+        "description": "Pomoc dla osób nie posiadających miejsca zamieszkania.",
+        "what": "ubrania, jedzenie, ciepłe koce"
+      },
+      {
+        "type": "Fundacja",
+        "name": "Fundacja 'Dbam o zdrowie'",
+        "description": "Pomoc osobom znajdującym się w trudnej sytuacji życiowej.",
+        "what": "ubrania, jedzenie, sprzęt AGD, meble, zabawki"
+      },
+      {
+        "type": "Organizacja",
+        "name": "Organizacja 'Lorem Ipsum 1'",
+        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+        "what": "Egestas, sed, tempus"
+      },
+      {
+        "type": "Organizacja",
+        "name": "Organizacja 'Lorem Ipsum 2'",
+        "description": "Et placeat totam debitis unde facilis corrupti harum exercitationem.",
+        "what": "Ut, aliquam, purus, sit, amet"
+      },
+      {
+        "type": "Organizacja",
+        "name": "Organizacja 'Lorem Ipsum 3'",
+        "description": "Recusandae eveniet quo? Veritatis mollitia, ipsum quasi facere non iste.",
+        "what": "Mi, quis, hendrerit, dolor"
+      },
+      {
+        "type": "Organizacja",
+        "name": "Organizacja 'Lorem Ipsum 4'",
+        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+        "what": "Egestas, sed, tempus"
+      },
+      {
+        "type": "Organizacja",
+        "name": "Organizacja 'Lorem Ipsum 5'",
+        "description": "Recusandae eveniet quo? Veritatis mollitia, ipsum quasi facere non iste.",
+        "what": "Mi, quis, hendrerit, dolor"
+      },
+      {
+        "type": "Zbiorka",
+        "name": "Zbiorka 'Lorem Ipsum 1'",
+        "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+        "what": "Mi, quis, hendrerit, dolor"
+      },
+      {
+        "type": "Zbiorka",
+        "name": "Zbiorka 'Lorem Ipsum 2'",
+        "description": "Laudantium hic animi dolores ipsam laboriosam magnam tenetur quibusdam.",
+        "what": "Quis, dolor, hendrerit"
+      },
+      {
+        "type": "Zbiorka",
+        "name": "Zbiorka 'Lorem Ipsum 3'",
+        "description": "Atque aperiam et pariatur qui ea facere fugiat soluta placeat facilis.",
+        "what": "Ut, aliquam, purus, sit, amet"
+      },
+      {
+        "type": "Zbiorka",
+        "name": "Zbiorka 'Lorem Ipsum 4'",
+        "description": "Ipsum nobis, qui inventore expedita veniam accusamus ab consequuntur.",
+        "what": "Quis, dolor, hendrerit"
+      },
+      {
+        "type": "Zbiorka",
+        "name": "Zbiorka 'Lorem Ipsum 5'",
+        "description": "Ipsam exercitationem nihil a incidunt fugit quibusdam amet.",
+        "what": "Mi, quis, hendrerit, dolor"
+      },
+      {
+        "type": "Zbiorka",
+        "name": "Zbiorka 'Lorem Ipsum 6'",
+        "description": "In architecto voluptatem provident ipsum aliquam vero.",
+        "what": "Ut, aliquam, purus, sit, amet"
+      },
+      {
+        "type": "Zbiorka",
+        "name": "Zbiorka 'Lorem Ipsum 7'",
+        "description": "Praesentium eos exercitationem hic in odit commodi maiores eum pariatur.",
+        "what": "Quis, dolor, hendrerit"
+      },
+      {
+        "type": "Zbiorka",
+        "name": "Zbiorka 'Lorem Ipsum 8'",
+        "description": "Neque quisquam ipsam quod obcaecati fugiat ex.",
+        "what": "Mi, quis, hendrerit, dolor"
+      }
+    ]
+  }
