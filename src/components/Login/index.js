@@ -7,7 +7,7 @@ import decorationImg from '../../assets/Decoration.svg';
 
 const Login = () => {
   return (
-    <section className="LoginWrapper">
+    <section className="loginWrapper">
 
     <div className="loginCenter">
         <h2 className="loginTitle">Logowanie</h2>

@@ -1,0 +1,29 @@
+@import "../../scss/main.scss";
+
+.logoutWrapper {
+    display: flex;
+    justify-content: flex-end;
+    height: 1000px;
+    width: 100%;
+}
+
+.logoutCenter {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    color: $seventhColor;
+    padding-top: 10rem;
+}
+
+.logoutTitle {
+    font-size: 2.5rem;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+.decorationImgSteps {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
