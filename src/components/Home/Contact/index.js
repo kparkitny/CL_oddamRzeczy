@@ -45,9 +45,6 @@ const Contact = () => {
 //   body: JSON.stringify(initialValues)
 // })
 
-
-
-
                     alert('Wiadomośc wysłana!');
                 }}
                 render={({ errors, status, touched }) => (
@@ -68,14 +65,14 @@ const Contact = () => {
                             <ErrorMessage name="msg" component="div" className="formControlWrong" />
                         </div>
 
-                        <div className="contactRightForm">
-                            <button type="submit" className="contactBtnStyle">Wyślij</button>
-                        </div>
-                    </Form>
-                )}
-            />
+                            <div className="contactRightForm">
+                                <button type="submit" className="contactBtnStyle">Wyślij</button>
+                            </div>
+                        </Form>
+                    )}
+                />
             </div>
-</section>
-        )
-    }
+        </section>
+    )
+}
 export default Contact;
