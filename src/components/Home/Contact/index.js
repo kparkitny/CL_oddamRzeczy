@@ -4,14 +4,6 @@ import * as Yup from 'yup';
 import "./style.scss";
 import decorationImg from '../../../assets/Decoration.svg';
 
-// fetch(`  http://localhost:3000/database/`, {
-//   method: 'POST',
-//   headers: {
-//       "Content-Type": 'application/json'
-//   },
-//   body: JSON.stringify(formData)
-// })
-
 const Contact = () => {
         return (
           <section className="contactWrapper" id="contactSection">
@@ -38,6 +30,24 @@ const Contact = () => {
                         .required('Wiadomość jest wymaganym polem'),
                 })}
                 onSubmit={fields => {
+
+//                     initialValues={{
+//                     firstName: '',
+//                     email: '',
+//                     msg: ''
+
+                    
+// fetch(`  http://localhost:3000/database/`, {
+//   method: 'POST',
+//   headers: {
+//       "Content-Type": 'application/json'
+//   },
+//   body: JSON.stringify(initialValues)
+// })
+
+
+
+
                     alert('Wiadomośc wysłana!');
                 }}
                 render={({ errors, status, touched }) => (

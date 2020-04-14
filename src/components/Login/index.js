@@ -1,12 +1,19 @@
 import React from "react";
 import { Formik, Field, Form, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
+import LoginBox from "../Home/HomeHeader/LoginBox/";
+import NavBox from "../Home/HomeHeader/NavBox/";
 // import { NavLink } from "react-router-dom";
 import "./style.scss";
 import decorationImg from '../../assets/Decoration.svg';
 
 const Login = () => {
   return (
+    <>
+    <div className="topContainer">
+      <LoginBox />
+      <NavBox />
+    </div>
     <section className="loginWrapper">
 
     <div className="loginCenter">
@@ -44,7 +51,7 @@ const Login = () => {
                   <div className="loginForm">
                   <ul>
                     <li>
-                      <button onclick="window.location.href='/register'" className="loginBtnNewAccountStyle">Założ konto</button>
+                      <button onClick="window.location.href='/register'" className="loginBtnNewAccountStyle">Założ konto</button>
                     {/* <NavLink to="/register">Założ konto</NavLink> */}
                     </li>
                     <li>
@@ -57,6 +64,7 @@ const Login = () => {
       />
       </div>
 </section>
+</>
   )
 }
 export default Login;

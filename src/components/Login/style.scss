@@ -1,5 +1,11 @@
 @import "../../scss/main.scss";
 
+.topContainer {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
 .loginWrapper {
     display: flex;
     justify-content: flex-end;

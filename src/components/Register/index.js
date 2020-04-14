@@ -1,12 +1,19 @@
 import React from "react";
 import { Formik, Field, Form, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
+import LoginBox from "../Home/HomeHeader/LoginBox/";
+import NavBox from "../Home/HomeHeader/NavBox/";
 // import { NavLink } from "react-router-dom";
 import "./style.scss";
 import decorationImg from '../../assets/Decoration.svg';
 
 const Register = () => {
   return (
+    <>
+    <div className="topContainer">
+      <LoginBox />
+      <NavBox />
+    </div>
     <section className="registerWrapper">
 
     <div className="registerCenter">
@@ -69,6 +76,7 @@ const Register = () => {
       />
       </div>
 </section>
+</>
   )
 }
 export default Register;
