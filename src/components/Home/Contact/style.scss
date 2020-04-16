@@ -1,9 +1,13 @@
 @import "../../../scss/main.scss";
 
+#contactSection {
+    height: 100vh;
+}
+
 .contactWrapper {
     display: flex;
     justify-content: flex-end;
-    height: 1000px;
+    // height: 1000px;
     width: 100%;
 }
 

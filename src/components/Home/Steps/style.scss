@@ -1,7 +1,6 @@
 @import "../../../scss/main.scss";
 
 .fourStepsWrapper {
-    // height: 10rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -29,7 +28,6 @@
     height: 18rem;
     background: $primaryColor;
     display: flex;
-    // align-items: center;
     justify-content: space-evenly;
 }
 

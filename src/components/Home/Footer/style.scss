@@ -1,17 +1,18 @@
 @import "../../../scss/main.scss";
 
 .footerWrapper {
+    height: 0vh;
     display: flex;
     justify-content: space-between;
     font-size: 1rem;
     line-height: 1.5rem;
-    margin-top: -1rem;
+    margin-top: -2.5rem;
 }
 
 .blankStyle {
     width: 5rem;
 }
 
-.socialFbImgStyle {
+.socialIcons, .socialFbImgStyle {
     padding-right: 1rem;
 }

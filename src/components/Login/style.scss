@@ -9,7 +9,7 @@
 .loginWrapper {
     display: flex;
     justify-content: flex-end;
-    height: 1000px;
+    height: 90vh;
     width: 100%;
 }
 
@@ -39,6 +39,7 @@
     height: 100px;
     display: flex;
     flex-direction: column;
+    // justify-content: space-between;
 }
 
 .loginFormControl {
@@ -88,7 +89,7 @@
     border: 1px solid $seventhColor;
   }  
 
-  .li {
+  .loginFormBtn {
       display: flex;
-      flex-direction: column;
+      justify-content: space-evenly;
   }

@@ -6,11 +6,11 @@ const HelpTo = () => {
     const [posts, setPosts] = useState([]);
     // const [loading, setLoading] = useState(false);
     const [currentPage, setCurrentPage] = useState(1);
-    const [postsPerPage, setPostsPerPage] = useState(3);
+    const [postsPerPage, setPostsPerPage] = useState(4);
     const [listToPagination, setListToPagination] = useState([]);
 
     useEffect(() => {
-        fetch(`http://localhost:3000/database/`)
+        fetch(`http://localhost:3000/profile`)
             .then((res) => res.json())
             .then((res) => setPosts(res))
     }, [])
@@ -37,7 +37,6 @@ const HelpTo = () => {
         setCurrentPage(1);
         setListToPagination(collectionFiltered);
     }
-
     // pobieranie aktualnych postów
     const indexOfLastPost = currentPage * postsPerPage;
     const indexOfFirstPost = indexOfLastPost - postsPerPage;
@@ -50,12 +49,10 @@ const HelpTo = () => {
     } if (pageNumbers <= 3) {
         pageNumbers = [];
     }
-
     // zmiana strony
     const paginate = (pageNumber) => { 
         setCurrentPage(pageNumber)
     };
-
     return (
         <>
             <section className="helpToWrapper" id="helpToSection">
@@ -66,11 +63,10 @@ const HelpTo = () => {
                     <button onClick={organizationFilter} className="helpToWrapperBtn">Organizacjom pozarządowym</button>
                     <button onClick={collectionFilter} className="helpToWrapperBtn">Lokalnym zbiórkom</button>
                 </div>
-                <p className="helpToWrapperListTitle">W naszej bazie znajdziesz listę zweryfikowanych Fundacji, z którymi współpracujemy. Możesz sprawdzić czym się zajmują, komu pomagają i czego potrzebują.</p>
+                <p className="helpToWrapperListTitle">W naszej bazie znajdziesz listę zweryfikowanych Fundacji, Organizcji z którymi współpracujemy. Możesz sprawdzić czym się zajmują, komu pomagają i czego potrzebują.</p>
                 <ul className="helpToWrapperList">
                     {currentPosts.map(el => <li key={el.index}><p className="helpToWrapperListName">{el.name}</p> <br />Cel i misja: {el.description}<br /><hr /></li>)}
                 </ul>
-                
                 <ul className="paginationContainer">{pageNumbers.map(number => <li className="paginationContainerSide" key={number} onClick={() => paginate(number)}>{number}</li>)}</ul>
             </section>
         </>

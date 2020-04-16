@@ -3,7 +3,7 @@ import { Formik, Field, Form, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
 import LoginBox from "../Home/HomeHeader/LoginBox/";
 import NavBox from "../Home/HomeHeader/NavBox/";
-// import { NavLink } from "react-router-dom";
+import Footer from "../Home/Footer"
 import "./style.scss";
 import decorationImg from '../../assets/Decoration.svg';
 
@@ -34,7 +34,7 @@ const Login = () => {
                   .required('Hasło jest wymaganym polem'),
           })}
           onSubmit={fields => {
-              alert('Wykonano!');
+              alert('Zalogowano poprawnie');
           }}
           render={({ errors, status, touched }) => (
               <Form>
@@ -45,11 +45,11 @@ const Login = () => {
                   </div>
                   <div className="loginForm">
                       <label htmlFor="password" className="loginPassStyle">Hasło</label><br />
-                      <Field name="password" type="text" className={'loginFormControl' + (errors.password && touched.password ? ' is-invalid' : '')} />
+                      <Field name="password" type="password" className={'loginFormControl' + (errors.password && touched.password ? ' is-invalid' : '')} />
                       <ErrorMessage name="password" component="div" className="loginFormControlWrong" />
                   </div>
                   <div className="loginForm">
-                  <ul>
+                  <ul className="loginFormBtn">
                     <li>
                       <button onClick="window.location.href='/register'" className="loginBtnNewAccountStyle">Założ konto</button>
                     {/* <NavLink to="/register">Założ konto</NavLink> */}
@@ -64,6 +64,7 @@ const Login = () => {
       />
       </div>
 </section>
+  <Footer />
 </>
   )
 }

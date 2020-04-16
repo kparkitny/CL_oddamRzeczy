@@ -8,8 +8,8 @@ const HomeHeader = () => {
   return (
     <section className="homeHeaderWrapper">
       <div className="topMenuPanel">
-              <LoginBox />
-              <NavBox />
+                <LoginBox />
+                <NavBox />
               <h1 className="topMenuPanelWord">Zacznij pomagać!</h1>
               <h1 className="topMenuPanelWord">Oddaj niechciane rzeczy w zaufane ręce</h1>
               <img src={decorationImg} alt="dekoracja" className="decorationImgStyle"/>

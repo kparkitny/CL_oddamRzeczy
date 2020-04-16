@@ -2,12 +2,12 @@
 
 ul {
   display: flex;
+  position: sticky;
 }
 
 ul>li {
   padding-bottom: 1.5rem;
   padding: 1rem 1.5rem;
-  // text-align: center;
 }
 
 .homeHeaderWrapper {
@@ -15,7 +15,8 @@ ul>li {
   display: flex;
   justify-content: flex-end;
   background-image: url(../../../assets/Home-Hero-Image.jpg);
-  background-position: -480px;
+  background-position-x: -250px;
+  background-position-y: 119px;
   background-repeat: no-repeat;
 }
 

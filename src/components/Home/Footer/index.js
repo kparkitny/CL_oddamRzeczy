@@ -7,7 +7,7 @@ const Footer = () => {
         return (
           <section className="footerWrapper">
             <p className="blankStyle"></p>
-            <p>Copyright by Coders Lab</p>
+            <p>&copy; Copyright by <a href="https://parkitny.eu/git" target="_blank" rel="noopener noreferrer">Krzysztof Parkitny</a></p>
             <div className="socialIcons"> 
                  <img src={socialFbImg} className="socialFbImgStyle" alt="facebook"/>
                  <img src={socialInstImg} className="socialInstImgStyle" alt="instagram"/>

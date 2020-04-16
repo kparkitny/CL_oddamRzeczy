@@ -9,7 +9,7 @@
 .registerWrapper {
     display: flex;
     justify-content: flex-end;
-    height: 1000px;
+    height: 90vh;
     width: 100%;
 }
 
@@ -85,7 +85,7 @@
     border: 1px solid $seventhColor;
   }  
 
-  .li {
-      display: flex;
-      flex-direction: column;
-  }
+  .registerFormBtn {
+    display: flex;
+    justify-content: space-evenly;
+}

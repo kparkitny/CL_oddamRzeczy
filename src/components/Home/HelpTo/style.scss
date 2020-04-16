@@ -1,6 +1,11 @@
 @import "../../../scss/main.scss";
 
+#helpToSection {
+    height: 90vh;
+}
+
 .helpToWrapper {
+    // height: 1200px;
     width: 100%;
     height: 50rem;
     display: flex;
@@ -41,11 +46,11 @@
 }
 
 .helpToWrapperListTitle {
-    margin-top: 2rem;
+    margin: 4rem 0;
     width: 30%;
     font-size: 1.3rem;
     line-height: 1.8rem;
-    padding-bottom: 2rem;
+    // padding-bottom: 5rem;
 }
 
 .helpToWrapperListName {
@@ -53,13 +58,12 @@
 }
 
 .helpToWrapperList {
+    // height: 450px;
+    height: 38vh;
     width: 60%;
     display: flex;
     flex-direction: column;
-}
-
-li.paginationContainerSide {
-    // position: absolute; ??? 
+    margin-bottom: 1rem;
 }
 
 li.paginationContainerSide:hover {

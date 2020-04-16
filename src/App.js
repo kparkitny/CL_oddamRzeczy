@@ -20,8 +20,3 @@ function App() {
   );
 }
 export default App;
-
-
-// <Route exact path="/register" component={rejestracja} />
-// <Route exact path="/login" component={logowanie} />
-// <Route exact path="/logout" component={wylogowano} /> */}

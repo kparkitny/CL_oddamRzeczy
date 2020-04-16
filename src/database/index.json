@@ -6,16 +6,16 @@
       "author": "typicode"
     },
     {
-      "name": "Qwerty",
-      "email": "asd@wp.pl",
-      "message": "1231231231231231231231223123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123",
-      "id": 3
+      "name": "testttttt9",
+      "email": "faaf@wp.pl",
+      "message": "fafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafa",
+      "id": 2
     },
     {
-      "name": "afafafa",
-      "email": "fafafa@wp.pl",
-      "message": "fafafafafafafafafafafaafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafa",
-      "id": 4
+      "name": "Krzysiek",
+      "email": "testowy@t.pl",
+      "message": "afpoafaafpoafaafpoafaafpoafaafpoafaafpoafaafpoafaafpoafaafpoafaafpoafaafpoafaafpoafaafpoafaafpoafaafpoafaafpoafaafpoafaafpoafaafpoafa",
+      "id": 3
     }
   ],
   "comments": [
@@ -49,6 +49,12 @@
       "name": "Fundacja 'Dbam o zdrowie'",
       "description": "Pomoc osobom znajdującym się w trudnej sytuacji życiowej.",
       "what": "ubrania, jedzenie, sprzęt AGD, meble, zabawki"
+    },
+    {
+      "type": "Fundacja",
+      "name": "Fundacja 'Numer pięć'",
+      "description": "Pomoc osobom dotkniętym epidemią",
+      "what": "jedzenie, ubrania, środki czystości"
     },
     {
       "type": "Organizacja",
