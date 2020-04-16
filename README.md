@@ -41,6 +41,5 @@ LinkedIn: https://parkitny.eu/li
 3) (Still in progress...)
 
 <br/>
-```
-Last README.md update: 16.04.2020r.
-```
+
+``` Last README.md update: 16.04.2020r. ```
