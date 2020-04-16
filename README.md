@@ -4,8 +4,6 @@ This project was created with [Create React App](https://github.com/facebook/cre
 This is at real my first ReactJS App. Application is still being developed. In the end of this file, 
 you can find out what will be add to application in the future (please check "todo list" section)
 
-[Live preview](https://www.parkitny.eu/) 
-
 
 ## Author contact info
 
