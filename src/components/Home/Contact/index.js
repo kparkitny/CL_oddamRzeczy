@@ -34,7 +34,7 @@ const Contact = () => {
                             "email": fields.email,
                             "message": fields.msg
                         }
-                            fetch(`  http://localhost:3000/posts`, {
+                        fetch(`  http://localhost:3000/posts`, {
                             method: 'POST',
                             headers: {
                                 "Content-Type": 'application/json'

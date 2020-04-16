@@ -1,7 +1,7 @@
 @import "../../../scss/main.scss";
 
 #helpToSection {
-    height: 90vh;
+    height: 100vh;
 }
 
 .helpToWrapper {
@@ -18,7 +18,7 @@
 .helpToWrapperTitle {
     margin-top: 5rem;
     font-size: 2.5rem;
-    line-height: 3 rem;  
+    line-height: 3 rem;
 }
 
 .decorationImgHelpTo {
@@ -40,7 +40,7 @@
     background-color: $whiteColor;
 }
 
-.helpToWrapperBtn:hover {    
+.helpToWrapperBtn:hover {
     border: 1px solid $eighthColor;
     cursor: pointer;
 }
@@ -59,11 +59,11 @@
 
 .helpToWrapperList {
     // height: 450px;
-    height: 38vh;
+    height: 36vh;
     width: 60%;
     display: flex;
     flex-direction: column;
-    margin-bottom: 1rem;
+    // margin-bottom: 1rem;
 }
 
 li.paginationContainerSide:hover {
@@ -73,5 +73,5 @@ li.paginationContainerSide:hover {
 }
 
 li.paginationContainerSide:active {
-    color:yellow;
+    color: yellow;
 }

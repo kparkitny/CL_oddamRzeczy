@@ -1,6 +1,5 @@
 {
-  "posts": [
-    {
+  "posts": [{
       "id": 1,
       "title": "json-server",
       "author": "typicode"
@@ -18,15 +17,12 @@
       "id": 3
     }
   ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": [
-    {
+  "comments": [{
+    "id": 1,
+    "body": "some comment",
+    "postId": 1
+  }],
+  "profile": [{
       "type": "Fundacja",
       "name": "Fundacja 'Dbam o zdrowie'",
       "description": "Pomoc osobom znajdującym się w trudnej sytuacji życiowej.",

@@ -8,15 +8,15 @@ import PageNotFound from './components/PageNotFound';
 
 function App() {
   return (
-     <Router>
-       <Switch>
-         <Route exact path='/' component={Home} />
-         <Route path='/Login' component={Login} />
-         <Route path='/Register' component={Register} />
-         <Route path='/Logout' component={Logout} />
-         <Route path ='*' component={PageNotFound} />
-       </Switch>
-     </Router>
+    <Router>
+      <Switch>
+        <Route exact path='/' component={Home} />
+        <Route path='/Login' component={Login} />
+        <Route path='/Register' component={Register} />
+        <Route path='/Logout' component={Logout} />
+        <Route path='*' component={PageNotFound} />
+      </Switch>
+    </Router>
   );
 }
 export default App;

@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from "react";
+import React, { useEffect, useState } from "react";
 import "./style.scss";
 import decorationImgHelpTo from '../../../assets/Decoration.svg';
 
@@ -6,7 +6,7 @@ const HelpTo = () => {
     const [posts, setPosts] = useState([]);
     // const [loading, setLoading] = useState(false);
     const [currentPage, setCurrentPage] = useState(1);
-    const [postsPerPage, setPostsPerPage] = useState(4);
+    const [postsPerPage, setPostsPerPage] = useState(3);
     const [listToPagination, setListToPagination] = useState([]);
 
     useEffect(() => {
@@ -44,20 +44,20 @@ const HelpTo = () => {
 
     let pageNumbers = [];
     const totalPosts = listToPagination.length;
-         for (let i = 1; i <= Math.ceil(totalPosts / postsPerPage); i++) { 
-            pageNumbers.push(i);
+    for (let i = 1; i <= Math.ceil(totalPosts / postsPerPage); i++) {
+        pageNumbers.push(i);
     } if (pageNumbers <= 3) {
         pageNumbers = [];
     }
     // zmiana strony
-    const paginate = (pageNumber) => { 
+    const paginate = (pageNumber) => {
         setCurrentPage(pageNumber)
     };
     return (
         <>
             <section className="helpToWrapper" id="helpToSection">
-            <p className="helpToWrapperTitle">Komu pomagamy?</p>
-                <img src={decorationImgHelpTo} alt="dekoracja" className="decorationImgHelpTo"/>
+                <p className="helpToWrapperTitle">Komu pomagamy?</p>
+                <img src={decorationImgHelpTo} alt="dekoracja" className="decorationImgHelpTo" />
                 <div className="helpToWrapperButtons">
                     <button onClick={foundationFilter} className="helpToWrapperBtn">Fundacjom</button>
                     <button onClick={organizationFilter} className="helpToWrapperBtn">Organizacjom pozarządowym</button>

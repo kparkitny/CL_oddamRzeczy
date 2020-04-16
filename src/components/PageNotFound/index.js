@@ -6,7 +6,7 @@ const PageNotFound = () => {
     <div className="pageNotFoundSection">
       <h1 className="error">Error code: 404! Page not found...</h1>
     </div>
-    
+
   )
 }
 export default PageNotFound;

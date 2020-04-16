@@ -6,12 +6,12 @@ const Logout = () => {
   return (
     <section className="logoutWrapper">
 
-    <div className="logoutCenter">
+      <div className="logoutCenter">
         <h2 className="logoutTitle">Wylogowano pomyślnie!</h2>
-        <img src={decorationImg} alt="dekoracja" className="decorationImgStyle"/>
-     
+        <img src={decorationImg} alt="dekoracja" className="decorationImgStyle" />
+
       </div>
-</section>
+    </section>
   )
 }
 export default Logout;
