@@ -7,7 +7,7 @@ you can find out what will be add to application in the future (please check "to
 
 ## Author contact info
 
-E-mail: krzysztof@parkitny.eu
+E-mail: krzysztof@parkitny.eu </br>
 LinkedIn: https://parkitny.eu/li
 
 
