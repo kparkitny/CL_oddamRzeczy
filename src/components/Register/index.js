@@ -61,7 +61,7 @@ const Register = () => {
                 <div className="registerForm">
                   <ul className="registerFormBtn">
                     <li>
-                      <button type="reset" className="registerBtnNewAccountStyle">aWyczyść</button>
+                      <button type="reset" className="registerBtnNewAccountStyle">Wyczyść</button>
                     </li>
                     <li>
                       <button type="submit" className="registerBtnStyle">Wyślij</button>
