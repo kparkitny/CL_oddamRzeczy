@@ -1,11 +1,11 @@
 import React from "react";
-import { Formik, Field, Form, ErrorMessage } from 'formik';
-import * as Yup from 'yup';
+import { Formik, Field, Form, ErrorMessage } from "formik";
+import * as Yup from "yup";
 import LoginBox from "../Home/HomeHeader/LoginBox/";
 import NavBox from "../Home/HomeHeader/NavBox/";
 import Footer from "../Home/Footer"
 import "./style.scss";
-import decorationImg from '../../assets/Decoration.svg';
+import decorationImg from "../../assets/Decoration.svg";
 
 const Register = () => {
   return (
@@ -15,7 +15,6 @@ const Register = () => {
         <NavBox />
       </div>
       <section className="registerWrapper">
-
         <div className="registerCenter">
           <h2 className="registerTitle">Nowe konto</h2>
           <img src={decorationImg} alt="dekoracja" className="decorationImgStyle" />
@@ -37,7 +36,6 @@ const Register = () => {
                 .min(6, 'Hasło jest za krótkie - minimum to 6 znaków')
                 .required('Powtórz hasło'),
             })}
-
             onSubmit={fields => {
               alert('Konto zostało utworzone');
             }}

@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from 'react-scroll';
+import { Link } from "react-scroll";
 import { NavLink } from "react-router-dom";
 import "./style.scss";
 

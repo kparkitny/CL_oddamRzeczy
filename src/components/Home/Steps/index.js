@@ -1,10 +1,10 @@
 import React from "react";
 import "./style.scss";
-import decorationImgSteps from '../../../assets/Decoration.svg';
-import columnImg1 from '../../../assets/Icon-1.svg';
-import columnImg2 from '../../../assets//Icon-2.svg';
-import columnImg3 from '../../../assets/Icon-3.svg';
-import columnImg4 from '../../../assets/Icon-4.svg';
+import decorationImgSteps from "../../../assets/Decoration.svg";
+import columnImg1 from "../../../assets/Icon-1.svg";
+import columnImg2 from "../../../assets//Icon-2.svg";
+import columnImg3 from "../../../assets/Icon-3.svg";
+import columnImg4 from "../../../assets/Icon-4.svg";
 
 const Steps = () => {
     return (

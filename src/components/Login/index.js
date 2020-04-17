@@ -1,15 +1,11 @@
 import React from "react";
-import { Formik, Field, Form, ErrorMessage } from 'formik';
-import * as Yup from 'yup';
+import { Formik, Field, Form, ErrorMessage } from "formik";
+import * as Yup from "yup";
 import LoginBox from "../Home/HomeHeader/LoginBox/";
 import NavBox from "../Home/HomeHeader/NavBox/";
 import Footer from "../Home/Footer"
 import "./style.scss";
-import decorationImg from '../../assets/Decoration.svg';
-
-function tempBtn(e) {
-  e.preventDefault();
-}
+import decorationImg from "../../assets/Decoration.svg";
 
 const Login = () => {
   return (

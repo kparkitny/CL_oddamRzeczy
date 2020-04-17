@@ -1,8 +1,9 @@
-import React from 'react';
-import { Formik, Field, Form, ErrorMessage } from 'formik';
-import * as Yup from 'yup';
+import React from "react";
+import { Formik, Field, Form, ErrorMessage } from "formik";
+import * as Yup from "yup";
 import "./style.scss";
-import decorationImg from '../../../assets/Decoration.svg';
+import decorationImg from "../../../assets/Decoration.svg";
+
 const Contact = () => {
     return (
         <section className="contactWrapper" id="contactSection">

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./style.scss";
-import decorationImgHelpTo from '../../../assets/Decoration.svg';
+import decorationImgHelpTo from "../../../assets/Decoration.svg";
 
 const HelpTo = () => {
     const [posts, setPosts] = useState([]);

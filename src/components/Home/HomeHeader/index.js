@@ -1,6 +1,6 @@
 import React from "react";
-import LoginBox from "./LoginBox/index";
-import NavBox from "./NavBox/index";
+import LoginBox from "./LoginBox/";
+import NavBox from "./NavBox/";
 import "./style.scss";
 import decorationImg from '../../../assets/Decoration.svg';
 

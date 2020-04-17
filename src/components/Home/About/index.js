@@ -1,8 +1,8 @@
 import React from "react";
 import "./style.scss";
-import decorationImgAbout from '../../../assets/Decoration.svg';
-import signatureAbout from '../../../assets/Signature.svg';
-import peopleAbout from '../../../assets/People.jpg';
+import decorationImgAbout from "../../../assets/Decoration.svg";
+import signatureAbout from "../../../assets/Signature.svg";
+import peopleAbout from "../../../assets/People.jpg";
 
 const About = () => {
   return (
