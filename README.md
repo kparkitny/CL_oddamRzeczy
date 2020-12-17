@@ -30,7 +30,7 @@ LinkedIn: https://parkitny.eu/li
 
 2. Go to database folder (./src/database/) and start JSON server by typing in your bash console:<br/>
 ``` json-server --watch index.json ```<br/>
-If there are any problem with permission, yo can use commands:
+If there are any problem with permission, yo can use commands:<br/>
 ``` npx json-server --watch db.json ```
 
 3. Open second instances of bash console and type:<br/>
