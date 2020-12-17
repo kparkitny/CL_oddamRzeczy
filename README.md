@@ -29,7 +29,7 @@ LinkedIn: https://parkitny.eu/li
 ``` npm i ```
 
 2. Go to database folder (./src/database/) and start JSON server by typing in your bash console:<br/>
-``` json-server --watch index.json ```
+``` json-server --watch index.json ```<br/>
 If there are any problem with permission, yo can use commands:
 ``` npx json-server --watch db.json ```
 
